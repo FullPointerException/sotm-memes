@@ -1,0 +1,120 @@
+{
+	"MrFixer": [
+		{
+			"identifier": "MrFixerCharacter",
+			"promoIdentifier": "OnePunchMrFixerCharacter",
+			"count": 1,
+			"title": "Mr. Fixer",
+			"promoTitle": "One Punch Mr. Fixer",
+			"body": "One Punch",
+			"icons": [
+				"HasPower",
+				"DealDamageMelee"
+			],
+			"backgroundColor": "FF0000",
+			"foilBackgroundColor": "00FF00",
+			"hitpointsColor": "0000FF",
+			"character": true,
+			"powers": [
+				"{MrFixerCharacter} deals 1 target 999 melee damage."
+			],
+			"hitpoints": 30,
+			"nemesisIdentifiers": [
+				"MrFixer"
+			],
+			"incapacitatedAbilities": [
+        		"One player may play a card.",
+        		"One hero may use a power.",
+        		"One player may draw a card."
+			],
+			"flippedIcons": [
+				"PlayCardNow",
+				"UsePowerNow",
+				"DrawCardNow"
+			],
+			"complexity": 1,
+			"openingLises": {
+				"default": "Maybe this will be fun."
+			}
+		}
+	],
+	"Expatriette": [
+		{
+			"identifier": "ExpatrietteCharacter",
+			"promoIdentifier": "QuickDrawExpatrietteCharacter",
+			"count": 1,
+			"title": "Expatriette",
+			"promoTitle": "Quick-Draw Expatriette",
+			"body": "Quick Draw",
+			"icons": [
+				"HasPower",
+				"Manipulate",
+				"UsePowerNow"
+			],
+			"backgroundColor": "FF0000",
+			"foilBackgroundColor": "00FF00",
+			"hitpointsColor": "0000FF",
+			"character": true,
+			"powers": [
+				"Put ammo cards from you hand and discard pile into play. Use a power"
+			],
+			"hitpoints": 25,
+			"nemesisIdentifiers": [
+				"Expatriette"
+			],
+			"incapacitatedAbilities": [
+        		"One player may play a card.",
+        		"One hero may use a power.",
+        		"One player may draw a card."
+			],
+			"flippedIcons": [
+				"PlayCardNow",
+				"UsePowerNow",
+				"DrawCardNow"
+			],
+			"complexity": 1,
+			"openingLises": {
+				"Draw!"
+			}
+		}
+	],
+	"TheScholar" : [
+		{
+			"identifier": "TheScholarCharacter",
+			"promoIdentifier": "TheScholarOfTheElementsCharacter",
+			"count": 1,
+			"title": "The Scholar",
+			"promoTitle": "The Scholar Of The Elements",
+			"body": "Elemental Barrage",
+			"icons": [
+				"HasPower",
+				"DealDamage"
+			],
+			"backgroundColor": "FF0000",
+			"foilBackgroundColor": "00FF00",
+			"hitpointsColor": "0000FF",
+			"character": true,
+			"powers": [
+				"Deal 1 target 1 damage of each damage type."
+			],
+			"hitpoints": 28,
+			"nemesisIdentifiers": [
+				"TheScholar"
+			],
+			"incapacitatedAbilities": [
+        		"One player may play a card.",
+        		"One hero may use a power.",
+        		"One player may draw a card."
+			],
+			"flippedIcons": [
+				"PlayCardNow",
+				"UsePowerNow",
+				"DrawCardNow"
+			],
+			"complexity": 1,
+			"openingLises": {
+				"Earth! Fire! Wind! Water!"
+			}
+		}
+	]
+}
