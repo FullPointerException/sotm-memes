@@ -1,0 +1,39 @@
+{
+   "title":"Memes of the Multiverse",
+   "author":"Full Pointer Exception",
+   "description":"This project is a series of meme variants and meme decks. Nothing is balanced, but evething is an idea I found amusing or interesting.",
+   "namespace":"Memes",
+   "publishedFileId":123456789,
+   "dll":"Memes.dll",
+   "version":"0.1",
+   "color":"123456",
+   "manualTags":[],
+   "decks":{
+      "heroes":[
+         "MigrantCoder"
+      ],
+      "villains":[
+         "TheBaddies"
+      ],
+      "teamVillains":[
+         "TheHugMonsterTeam"
+      ],
+      "environments":[
+         "DevStream"
+      ]
+   },
+   "variants":{
+      "Bunker":["WaywardBunkerCharacter"],
+      "TheSentinels":["TheSerpentinelsInstructions","DrMedicobraCharacter","MainsnakeCharacter","TheIdealizardCharacter","WrattleCharacter"],
+      "SkyScraper":["CentristSkyScraperNormalCharacter"],
+      "Expatriette": ["QuickDrawExpatriette"],
+      "MrFixer": ["OnePunchMrFixer"],
+      "TheScholar": ["TheScholarOfTheElements"],
+      "BaronBlade":["BaronJeremyCharacter"],
+   },
+   "credits":[
+      "Concept: FullPoiterException",
+      "Coding: FullPointerException",
+      "Art: FullPointerException"
+   ]
+}

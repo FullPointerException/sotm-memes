@@ -1,0 +1,457 @@
+﻿{
+  "Bunker": [
+
+    {
+      "identifier": "BunkerCharacter",
+      "promoIdentifier": "WaywardBunkerCharacter",
+      "count": 1,
+      "title": "Bunker",
+      "promoTitle": "Wayward Bunker",
+      "body": "Go Your Own Way",
+      "icons": [
+        "HasPower",
+        "DrawCardNow"
+      ],
+      "backgroundColor": "123456",
+      "foilBackgroundColor": "123456",
+      "hitpointsColor": "123456",
+      "character": true,
+      "powers": [
+        "Draw 2 cards."
+      ],
+      "hitpoints": 30,
+      "nemesisIdentifiers": [
+        "Bunker"
+      ],
+      "incapacitatedAbilities": [
+        "One player may play a card.",
+        "One hero may use a power.",
+        "One player may draw a card."
+      ],
+      "flippedIcons": [
+        "PlayCardNow",
+        "UsePowerNow",
+        "DrawCardNow"
+      ],
+      "complexity": 2,
+      "openingLines": {
+        "default": "You can't tell me what to do!"
+      }
+    }
+
+  ],
+  "TheSentinels": [
+    {
+      "identifier": "TheSentinelsInstructions",
+      "promoIdentifier": "TheSerpentinelsInstructions",
+      "count": 1,
+      "title": "The Sentinels",
+      "promoTitle": "The Serpentinels",
+      "backgroundColor": "123456",
+      "foilBackgroundColor": "123456",
+      "character": true,
+      "setup": [
+        "At the start of the game, put the character cards for {DrMedicoCharacter}, {MainstayCharacter}, {TheIdealistCharacter}, and {WritheCharacter} into play, active side up.",
+        "Shuffle the hero deck and draw 4 cards."
+      ],
+      "gameplay": [
+        "If you have no active heroes in play, flip this card."
+      ],
+      "flippedBody": "Incapacitated",
+      "incapacitatedAbilities": [
+        "One target regains 2 HP.",
+        "One Player may play a card.",
+        "One Player may draw a card.",
+        "Destroy an Ongoing card."
+      ],
+      "openingLines": {
+        "default": "Hssss!"
+      },
+      "isReal": false,
+      "complexity": 3,
+      "associatedPromoIdentifiers": [
+        "DrMedicobraCharacter",
+        "MainsnakeCharacter",
+        "TheIdealizardCharacter",
+        "WrattleCharacter"
+      ]
+    },
+    {
+      "identifier": "DrMedicoCharacter",
+      "promoIdentifier": "DrMedicobraCharacter",
+      "count": 1,
+      "title": "Dr. Medico",
+      "promoTitle": "Dr. Medicobra",
+      "body": "Regeneration",
+      "icons": [
+        "HasPower",
+        "GainHP",
+        "DrawCardNow"
+      ],
+      "backgroundColor": "123456",
+      "foilBackgroundColor": "123456",
+      "character": true,
+      "powers": [
+        "Each of {TheSentinels} regains 2 HP. You may draw a card."
+      ],
+      "hitpoints": 15,
+      "nemesisIdentifiers": [
+        "TheSentinels"
+      ]
+    },
+    {
+      "identifier": "MainstayCharacter",
+      "promoIdentifier": "MainsnakeCharacter",
+      "count": 1,
+      "title": "Mainstay",
+      "promoTitle": "Mainsnake",
+      "body": "Haymaker",
+      "icons": [
+        "HasPower",
+        "DealDamageMelee",
+        "MakeDamageIrreducible"
+      ],
+      "backgroundColor": "123456",
+      "foilBackgroundColor": "123456",
+      "character": true,
+      "powers": [
+        "{MainstayCharacter} deals 1 target 3 melee damage. The next damage dealt to that target is irreducible."
+      ],
+      "hitpoints": 16,
+      "nemesisIdentifiers": [
+        "TheSentinels"
+      ]
+    },
+    {
+      "identifier": "TheIdealistCharacter",
+      "promoIdentifier": "TheIdealizardCharacter",
+      "count": 1,
+      "title": "The Idealist",
+      "promoTitle": "The Idealizard",
+      "body": "T.K. Thump",
+      "icons": [
+        "HasPower",
+        "DealDamagePsychic",
+        "ReduceDamageDealt"
+      ],
+      "backgroundColor": "123456",
+      "foilBackgroundColor": "123456",
+      "character": true,
+      "powers": [
+        "{TheIdealistCharacter} deals 1 target 2 psychic damage. Until the start of your next turn, reduce damage dealt by a target dealt damage this way by 1."
+      ],
+      "hitpoints": 13,
+      "nemesisIdentifiers": [
+        "TheSentinels"
+      ]
+    },
+    {
+      "identifier": "WritheCharacter",
+      "promoIdentifier": "WrattleCharacter",
+      "count": 1,
+      "title": "Writhe",
+      "promoTitle": "Wrattle",
+      "body": "Shroud",
+      "icons": [
+        "HasPower",
+        "Manipulate"
+      ],
+      "backgroundColor": "123456",
+      "foilBackgroundColor": "123456",
+      "character": true,
+      "powers": [
+        "The next time a hero target is destroyed, you may move it to the owner's hand."
+      ],
+      "hitpoints": 14,
+      "nemesisIdentifiers": [
+        "TheSentinels"
+      ]
+    }
+  ],
+  "SkyScraper": [
+    {
+      "identifier": "SkyScraperNormalCharacter",
+      "promoIdentifier": "CentristSkyScraperNormalCharacter",
+      "sharedIdentifier": "CentristSkyScraperCharacter",
+      "count": 1,
+      "title": "Sky-Scraper",
+      "promoTitle": "Centrist Sky-Scraper",
+      "body": "Compromise",
+      "keywords": [
+        "Normal"
+      ],
+      "icons": [
+        "HasPower",
+        "DrawCardNow"
+      ],
+      "backgroundColor": "123456",
+      "foilBackgroundColor": "123456",
+      "character": true,
+      "powers": [
+        "Draw 3 cards. Switch to your huge character card."
+      ],
+      "hitpoints": 30,
+      "nemesisIdentifiers": [
+        "SkyScraper"
+      ],
+      "incapacitatedAbilities": [
+        "One player may play a card.",
+        "One hero may use a power.",
+        "One player may draw a card."
+      ],
+      "flippedIcons": [
+        "PlayCardNow",
+        "UsePowerNow",
+        "DrawCardNow"
+      ],
+      "complexity": 3,
+      "openingLines": {
+        "default": "Meet me in the middle here."
+      }
+    },
+    {
+      "identifier": "SkyScraperTinyCharacter",
+      "promoIdentifier": "CentristSkyScraperTinyCharacter",
+      "sharedIdentifier": "CentristSkyScraperCharacter",
+      "count": 1,
+      "title": "Sky-Scraper",
+      "promoTitle": "Centrist Sky-Scraper",
+      "body": "Slightly Smaller",
+      "keywords": [
+        "Tiny"
+      ],
+      "icons": [
+        "HasPower",
+        "Manipulate"
+      ],
+      "backgroundColor": "123456",
+      "foilBackgroundColor": "123456",
+      "character": true,
+      "powers": [
+        "Reveal the top card of a deck. Put it into play or into the trash."
+      ],
+      "hitpoints": 30,
+      "nemesisIdentifiers": [
+        "SkyScraper"
+      ],
+      "incapacitatedAbilities": [
+        "One player may play a card.",
+        "One hero may use a power.",
+        "One player may draw a card."
+      ],
+      "flippedIcons": [
+        "PlayCardNow",
+        "UsePowerNow",
+        "DrawCardNow"
+      ],
+      "complexity": 3
+    },
+    {
+      "identifier": "SkyScraperHugeCharacter",
+      "promoIdentifier": "CentristSkyScraperHugeCharacter",
+      "sharedIdentifier": "CentristSkyScraperCharacter",
+      "count": 1,
+      "title": "Sky-Scraper",
+      "promoTitle": "Centrist Sky-Scraper",
+      "body": "Slightly Bigger",
+      "keywords": [
+        "Huge"
+      ],
+      "icons": [
+        "HasPower",
+        "DealDamageSonic"
+      ],
+      "backgroundColor": "123456",
+      "foilBackgroundColor": "123456",
+      "character": true,
+      "powers": [
+        "{SkyScraper} deals each target 1 sonic damage."
+      ],
+      "hitpoints": 30,
+      "nemesisIdentifiers": [
+        "SkyScraper"
+      ],
+      "incapacitatedAbilities": [
+        "One player may play a card.",
+        "One hero may use a power.",
+        "One player may draw a card."
+      ],
+      "flippedIcons": [
+        "PlayCardNow",
+        "UsePowerNow",
+        "DrawCardNow"
+      ],
+      "complexity": 3
+    }
+  ],
+  "BaronBlade": [
+
+    {
+      "identifier": "BaronBladeCharacter",
+      "promoIdentifier": "BaronJeremyCharacter",
+      "overrideTurnTakerController": "BaronJeremy",
+      "count": 1,
+      "title": "Baron Blade",
+      "promoTitle": "Baron Jeremy",
+      "keywords": [
+        "villain"
+      ],
+      "icons": [
+        "StartAndEndOfTurnAction",
+        "DealDamageFire"
+      ],
+      "advancedIcons": [
+      ],
+      "body": "C.E.O.",
+      "backgroundColor": "123456",
+      "foilBackgroundColor": "123456",
+      "character": true,
+      "hitpoints": 50,
+      "nemesisIdentifiers": [
+        "Legacy",
+        "Memes.MigrantCoder"
+      ],
+      "setup": [
+        "At the start of the game, {BaronBlade} enters play “C.E.O.“ side up.",
+        "Four Blade Battalions are put into play. The Villain Deck is shuffled."
+      ],
+      "gameplay": [
+        "At the start of the villain turn, {BaronBlade} deals {H} fire damage to all hero targets.",
+        "At the end of the villain turn, if there are no minions in play, {BaronBlade} flips."
+      ],
+      "advanced": "He's bad enough without advanced!",
+      "flippedBody": "F.P.O.",
+      "flippedHitpoints": 50,
+      "flippedGameplay": [
+        "FPO"
+      ],
+      "flippedAdvanced": "Whatever! {Whatever}",
+      "flippedIcons": [
+      ],
+      "flippedAdvancedIcons": [
+      ],
+      "difficulty": 2,
+      "openingLines": {
+        "default": "We have damaged Grand Warlord Vossssssss!"
+      }
+    }
+  ],
+  "MrFixer": [
+    {
+      "identifier": "MrFixerCharacter",
+      "promoIdentifier": "OnePunchMrFixerCharacter",
+      "count": 1,
+      "title": "Mr. Fixer",
+      "promoTitle": "One Punch Mr. Fixer",
+      "body": "One Punch",
+      "icons": [
+        "HasPower",
+        "DealDamageMelee"
+      ],
+      "backgroundColor": "FF0000",
+      "foilBackgroundColor": "00FF00",
+      "hitpointsColor": "0000FF",
+      "character": true,
+      "powers": [
+        "{MrFixerCharacter} deals 1 target 999 melee damage."
+      ],
+      "hitpoints": 30,
+      "nemesisIdentifiers": [
+        "MrFixer"
+      ],
+      "incapacitatedAbilities": [
+            "One player may play a card.",
+            "One hero may use a power.",
+            "One player may draw a card."
+      ],
+      "flippedIcons": [
+        "PlayCardNow",
+        "UsePowerNow",
+        "DrawCardNow"
+      ],
+      "complexity": 1,
+      "openingLises": {
+        "default": "Maybe this will be fun."
+      }
+    }
+  ],
+  "Expatriette": [
+    {
+      "identifier": "ExpatrietteCharacter",
+      "promoIdentifier": "QuickDrawExpatrietteCharacter",
+      "count": 1,
+      "title": "Expatriette",
+      "promoTitle": "Quick-Draw Expatriette",
+      "body": "Quick Draw",
+      "icons": [
+        "HasPower",
+        "Manipulate",
+        "UsePowerNow"
+      ],
+      "backgroundColor": "FF0000",
+      "foilBackgroundColor": "00FF00",
+      "hitpointsColor": "0000FF",
+      "character": true,
+      "powers": [
+        "Put ammo cards from you hand and discard pile into play. Use a power"
+      ],
+      "hitpoints": 25,
+      "nemesisIdentifiers": [
+        "Expatriette"
+      ],
+      "incapacitatedAbilities": [
+            "One player may play a card.",
+            "One hero may use a power.",
+            "One player may draw a card."
+      ],
+      "flippedIcons": [
+        "PlayCardNow",
+        "UsePowerNow",
+        "DrawCardNow"
+      ],
+      "complexity": 1,
+      "openingLises": {
+        "Draw!"
+      }
+    }
+  ],
+  "TheScholar" : [
+    {
+      "identifier": "TheScholarCharacter",
+      "promoIdentifier": "TheScholarOfTheElementsCharacter",
+      "count": 1,
+      "title": "The Scholar",
+      "promoTitle": "The Scholar Of The Elements",
+      "body": "Elemental Barrage",
+      "icons": [
+        "HasPower",
+        "DealDamage"
+      ],
+      "backgroundColor": "FF0000",
+      "foilBackgroundColor": "00FF00",
+      "hitpointsColor": "0000FF",
+      "character": true,
+      "powers": [
+        "Deal 1 target 1 damage of each damage type."
+      ],
+      "hitpoints": 28,
+      "nemesisIdentifiers": [
+        "TheScholar"
+      ],
+      "incapacitatedAbilities": [
+            "One player may play a card.",
+            "One hero may use a power.",
+            "One player may draw a card."
+      ],
+      "flippedIcons": [
+        "PlayCardNow",
+        "UsePowerNow",
+        "DrawCardNow"
+      ],
+      "complexity": 1,
+      "openingLises": {
+        "Earth! Fire! Wind! Water!"
+      }
+    }
+  ]
+}
