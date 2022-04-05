@@ -11,7 +11,7 @@ namespace Memes.TheScholar
 		{
 		}
 
-		public overried IEnumerator UseIncapacitatedAbility(int index)
+		public override IEnumerator UseIncapacitatedAbility(int index)
 		{
 			switch(index)
 			{
@@ -20,16 +20,16 @@ namespace Memes.TheScholar
 					IEnumerator playCoroutine = SelectHeroToPlayCard(this.DecisionMaker);
 					if(this.UseUnityCoroutines)
 					{
-						yield return this.GameController.StartCoroutine(coroutine);
+						yield return this.GameController.StartCoroutine(playCoroutine);
 					}
 					else
 					{
-						this.GameController.ExhaustCoroutine(coroutine);
+						this.GameController.ExhaustCoroutine(playCoroutine);
 					}
 					break;
 				case 1:
 					// One hero may use a power.
-					IEnumerator powerCoroutine = SelectHeroToUsePower(this.DecisionMaker, cardSource: this.GetCardSource());
+					IEnumerator powerCoroutine = this.GameController.SelectHeroToUsePower(this.DecisionMaker, cardSource: this.GetCardSource());
 					if(this.UseUnityCoroutines)
 					{
 						yield return this.GameController.StartCoroutine(powerCoroutine);
@@ -41,7 +41,7 @@ namespace Memes.TheScholar
 					break;
 				case 2:
 					// One player may draw a card.
-					IEnumerator drawCoroutine = SelectHeroToDrawCard(this.DecisionMaker);
+					IEnumerator drawCoroutine = this.GameController.SelectHeroToDrawCard(this.DecisionMaker);
 					if(this.UseUnityCoroutines)
 					{
 						yield return this.GameController.StartCoroutine(drawCoroutine);
@@ -58,9 +58,9 @@ namespace Memes.TheScholar
 		{
 			// Deal 1 target 1 damage of each damage type.
 			var numTargets = GetPowerNumeral(0, 1);
-			var damageAmount = GetPowerNuemral(1, 1);
+			var damageAmount = GetPowerNumeral(1, 1);
 
-			List<DealDamageAction> damagesList = new List<DealDamageAction>() {
+            /*List<DealDamageAction> damagesList = new List<DealDamageAction>() {
 				new DealDamageAction(this.GetCardSource(), new DamageSource(this.GameController, this.Card), null, damageAmount, DamageType.Cold),
 				new DealDamageAction(this.GetCardSource(), new DamageSource(this.GameController, this.Card), null, damageAmount, DamageType.Energy),
 				new DealDamageAction(this.GetCardSource(), new DamageSource(this.GameController, this.Card), null, damageAmount, DamageType.Fire),
@@ -84,7 +84,8 @@ namespace Memes.TheScholar
 			else
 			{
 				this.GameController.ExhaustCoroutine(coroutine);
-			}
+			}*/
+            return this.DoNothing();
 		}
 	}
 }

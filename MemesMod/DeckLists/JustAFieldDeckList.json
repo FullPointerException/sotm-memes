@@ -1,0 +1,88 @@
+{
+	"name": "Just A Field",
+	"kind": "Environment",
+	"backgroundColor": "00FF00",
+	"difficulty": 1,
+	"cards": [
+		{
+			"identifier": "VeryTallGrass",
+			"count": 3,
+			"title": "Very Tall Grass",
+			"keywords": [
+				"grass"
+			],
+			"body": [
+				"When this card is destroyed, play a Tall Grass from the environment trash."
+			],
+			"hitpoints": 5,
+			"flavorQuotes": [
+				{
+					"identifier": "The HOA",
+					"text": "Yep. That's a fine."
+				}
+			]
+		},
+		{
+			"identifier": "TallGrass",
+			"count": 3,
+			"title": "Tall Grass",
+			"keywords": [
+				"grass"
+			],
+			"body": [
+				"When this card is destroyed, play a Short Grass from the environment trash."
+			],
+			"hitpoints": 5,
+			"flavorText": [
+				"Time to mow"
+			]
+		},
+		{
+			"identifier": "ShortGrass",
+			"count": 3,
+			"title": "Short Grass",
+			"keywords": [
+				"grass"
+			],
+			"hitpoints": 5,
+			"flavorText": [
+				"Now for the next chore."
+			]
+		},
+		{
+			"identifier": "TouchGrass",
+			"count": 3,
+			"keywords": [
+				"one-shot"
+			],
+			"icons": [
+				"PlayCardNow"
+			],
+			"body": [
+				"Play the top card of the environment deck."
+			],
+			"flavorQuotes": [
+				{
+					"identifier": "The Internet",
+					"text": "Touch grass."
+				}
+			]
+		},
+		{
+			"identifier": "Fertilizer",
+			"count": 3,
+			"keywords": [
+				"one-shot"
+			],
+			"body": [
+				"Put all Grass cards from the environment trash into play."
+			],
+			"flavorQuotes": [
+				{
+					"identifier": "Dad",
+					"text": "Now that's a good looking lawn!"
+				}
+			]
+		}
+	]
+}

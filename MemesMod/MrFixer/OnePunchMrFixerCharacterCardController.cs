@@ -11,25 +11,25 @@ namespace Memes.MrFixer
 		{
 		}
 
-		public overried IEnumerator UseIncapacitatedAbility(int index)
+		public override IEnumerator UseIncapacitatedAbility(int index)
 		{
 			switch(index)
 			{
 				case 0:
 					// One player may play a card.
-					IEnumerator playCoroutine = SelectHeroToPlayCard(this.DecisionMaker);
+					IEnumerator playCoroutine = this.SelectHeroToPlayCard(this.DecisionMaker);
 					if(this.UseUnityCoroutines)
 					{
-						yield return this.GameController.StartCoroutine(coroutine);
+						yield return this.GameController.StartCoroutine(playCoroutine);
 					}
 					else
 					{
-						this.GameController.ExhaustCoroutine(coroutine);
+						this.GameController.ExhaustCoroutine(playCoroutine);
 					}
 					break;
 				case 1:
 					// One hero may use a power.
-					IEnumerator powerCoroutine = SelectHeroToUsePower(this.DecisionMaker, cardSource: this.GetCardSource());
+					IEnumerator powerCoroutine = this.GameController.SelectHeroToUsePower(this.DecisionMaker, cardSource: this.GetCardSource());
 					if(this.UseUnityCoroutines)
 					{
 						yield return this.GameController.StartCoroutine(powerCoroutine);
@@ -41,7 +41,7 @@ namespace Memes.MrFixer
 					break;
 				case 2:
 					// One player may draw a card.
-					IEnumerator drawCoroutine = SelectHeroToDrawCard(this.DecisionMaker);
+					IEnumerator drawCoroutine = this.GameController.SelectHeroToDrawCard(this.DecisionMaker);
 					if(this.UseUnityCoroutines)
 					{
 						yield return this.GameController.StartCoroutine(drawCoroutine);
@@ -58,7 +58,7 @@ namespace Memes.MrFixer
 		{
 			// {MrFixerCharacter} deals 1 target 999 melee amage.
 			var numTargets = GetPowerNumeral(0, 1);
-			var damageAmount = GetPowerNuemral(1, 999);
+			var damageAmount = GetPowerNumeral(1, 999);
 
 			IEnumerator coroutine = this.GameController.SelectTargetsAndDealDamage(
 					this.DecisionMaker,
