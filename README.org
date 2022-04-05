@@ -1,14 +1,48 @@
 * Memes of the Multiverse
 This project is a series of meme variants and meme decks. Nothing is balanced, but evething is an idea I found amusing or interesting.
-
 ** Contents
 *** Heroes
+**** Guy with a gun (Not yet implemented)
+   He's just a guy. He's got a gun. Could I be any more obvious?
 *** Hero Variants
+**** Burninator Ra (Not yet implemented)
+   Burninate all the villains
+**** America's Weakest Legacy (Not yet implemented)
+   A legacy that is too weak to help, and get destroyed real fast
+**** America's Youngest Legacy (Not yet implemented)
+   A literal baby that cries and gives everyone a headache
 **** One Punch Mr. Fixer
+   All he needs is one good punch to destroy something
 **** Quick Draw Expatriette
-**** The Scholar Of The Elements
+   Just toss all your ammo into play and start blasting
+**** Lucky Setback (Not yet implemented)
+   Just do some random damage
+**** The Scholar Of The Elements (Implementation in progress)
+   Deal all the kinds of damage
+**** The Un-naturalist (Not yet implemented)
+   Become an unnatural amalgamation of animals
+**** Time Loop Chronomancer (Not yet implemented)
+   Every turn is groundhog day
+**** Tree hugger akash (Not yet implemented)
+   Show just how much you love the environment
 *** Villains
 *** Villain Varaints
+**** Robo barons (Not yet implemented)
+   Baron blade, and his robo doppelganger at the same time?
+**** Ominitron I+II (Not yet implemented)
+   Why not both?
+**** Angry dreamer (Not yet implemented)
+   You wouldn't hit a little kid, would you?
+**** True Champion Kargra (Not yet implemented)
+   She's already won the title belt
 *** Envrionments
+**** Just a field
+   Touch grass
+**** Positive energy plane (Not yet implemented)
+   Stay positive
+**** Negative energy plane (Not yet implemented)
+   Be a downer
+**** Video game level (Not yet implemented)
+   Power-ups galore
 ** Artwork
    All art is my own creation, and guaranteed to be poorly drawn
