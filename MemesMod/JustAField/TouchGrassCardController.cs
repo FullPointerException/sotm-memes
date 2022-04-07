@@ -12,7 +12,7 @@ namespace Memes.DevStream
         {
         }
 
-        public override IEnumerator Play()
+        /*public override IEnumerator Play()
         {
             //  Play the top card of the environment deck.
             var coroutine = this.GameController.PlayTopCardOfLocation(this.DecisionMaker, this.TurnTaker.Deck, cardSource: this.GetCardSource());
@@ -25,6 +25,9 @@ namespace Memes.DevStream
             {
                 this.GameController.ExhaustCoroutine(coroutine);
             }
+        }*/
+        public override void AddTriggers()
+        {         
         }
     }
 }

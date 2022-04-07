@@ -411,7 +411,7 @@
       ],
       "complexity": 1,
       "openingLises": {
-        "Draw!"
+        "default": "Draw!"
       }
     }
   ],
@@ -450,7 +450,7 @@
       ],
       "complexity": 1,
       "openingLises": {
-        "Earth! Fire! Wind! Water!"
+        "default": "Earth! Fire! Wind! Water!"
       }
     }
   ]

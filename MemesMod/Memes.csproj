@@ -29,10 +29,10 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="EngineCommon">
-      <HintPath>..\..\..\Library\Application Support\Steam\steamapps\common\Sentinels of the Multiverse\Sentinels.app\Contents\Resources\Data\Managed\EngineCommon.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Sentinels of the Multiverse\Sentinels_Data\Managed\EngineCommon.dll</HintPath>
     </Reference>
     <Reference Include="SentinelsEngine">
-      <HintPath>..\..\Handelabra\SentinelsEngine\SentinelsEngine\bin\Debug\SentinelsEngine.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Sentinels of the Multiverse\Sentinels_Data\Managed\SentinelsEngine.dll</HintPath>
     </Reference>
     <Reference Include="EngineCommon">
       <HintPath>..\..\libs\EngineCommon.dll</HintPath>
@@ -87,18 +87,6 @@
     <EmbeddedResource Include="DeckLists\PromoCardList.json" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <Folder Include="TheBaddies\" />
-    <Folder Include="DevStream\" />
-    <Folder Include="JustAField\" />
-    <Folder Include="TheHugMonsterTeam\" />
-    <Folder Include="Bunker\" />
-    <Folder Include="BaronBlade\" />
-    <Folder Include="TheSentinels\" />
-    <Folder Include="SkyScraper\" />
-    <Folder Include="Expatriette\" />
-    <Folder Include="MrFixer\" />
-    <Folder Include="TheScholar\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

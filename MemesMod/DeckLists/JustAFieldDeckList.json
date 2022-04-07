@@ -48,41 +48,6 @@
 			"flavorText": [
 				"Now for the next chore."
 			]
-		},
-		{
-			"identifier": "TouchGrass",
-			"count": 3,
-			"keywords": [
-				"one-shot"
-			],
-			"icons": [
-				"PlayCardNow"
-			],
-			"body": [
-				"Play the top card of the environment deck."
-			],
-			"flavorQuotes": [
-				{
-					"identifier": "The Internet",
-					"text": "Touch grass."
-				}
-			]
-		},
-		{
-			"identifier": "Fertilizer",
-			"count": 3,
-			"keywords": [
-				"one-shot"
-			],
-			"body": [
-				"Put all Grass cards from the environment trash into play."
-			],
-			"flavorQuotes": [
-				{
-					"identifier": "Dad",
-					"text": "Now that's a good looking lawn!"
-				}
-			]
 		}
 	]
 }

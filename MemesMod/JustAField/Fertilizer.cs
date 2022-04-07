@@ -12,7 +12,7 @@ namespace Memes.DevStream
         {
         }
 
-        public override IEnumerator Play()
+        /*public override IEnumerator Play()
         {
             //  Put all Grass cards from the environment trash into play.
             var coroutine = this.GameController.MoveCards(
@@ -31,6 +31,6 @@ namespace Memes.DevStream
             {
                 this.GameController.ExhaustCoroutine(coroutine);
             }
-        }
+        }*/
     }
 }

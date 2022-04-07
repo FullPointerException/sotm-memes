@@ -19,16 +19,17 @@
          "TheHugMonsterTeam"
       ],
       "environments":[
-         "DevStream"
+         "DevStream",
+         "JustAField"
       ]
    },
    "variants":{
       "Bunker":["WaywardBunkerCharacter"],
       "TheSentinels":["TheSerpentinelsInstructions","DrMedicobraCharacter","MainsnakeCharacter","TheIdealizardCharacter","WrattleCharacter"],
       "SkyScraper":["CentristSkyScraperNormalCharacter"],
-      "Expatriette": ["QuickDrawExpatriette"],
-      "MrFixer": ["OnePunchMrFixer"],
-      "TheScholar": ["TheScholarOfTheElements"],
+      "Expatriette": ["QuickDrawExpatrietteCharacter"],
+      "MrFixer": ["OnePunchMrFixerCharacter"],
+      "TheScholar": ["TheScholarOfTheElementsCharacter"],
       "BaronBlade":["BaronJeremyCharacter"],
    },
    "credits":[
