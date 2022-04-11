@@ -61,7 +61,7 @@ namespace Memes.Expatriette
 			MoveCardDestination playArea = new MoveCardDestination(this.HeroTurnTaker.PlayArea);
             IEnumerable<Card> allAmmo = FindCardsWhere(new LinqCardCriteria((Card c) => c.Owner == this.TurnTaker && c.IsAmmo && (c.IsInTrash || c.IsInHand)));
 
-			IEnumerator moveCoroutine = this.GameController.MoveCards(this.TurnTakerController, allAmmo, (Card c) => playArea, false, true, false);
+			IEnumerator moveCoroutine = this.GameController.MoveCards(this.TurnTakerController, allAmmo, (Card c) => playArea, false, false, true);
 			if(this.UseUnityCoroutines)
 			{
 				yield return this.GameController.StartCoroutine(moveCoroutine);
