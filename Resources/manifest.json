@@ -25,6 +25,7 @@
    },
    "variants":{
       "Bunker":["WaywardBunkerCharacter"],
+      "ChronoRanger":["TimeLoopChronoRangerCharacter"],
       "TheSentinels":["TheSerpentinelsInstructions","DrMedicobraCharacter","MainsnakeCharacter","TheIdealizardCharacter","WrattleCharacter"],
       "SkyScraper":["CentristSkyScraperNormalCharacter"],
       "Expatriette": ["QuickDrawExpatrietteCharacter"],

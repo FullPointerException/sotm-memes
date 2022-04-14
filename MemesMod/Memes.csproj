@@ -76,6 +76,7 @@
     <Compile Include="Expatriette\QuickDrawExpatrietteCharacterCardController.cs" />
     <Compile Include="MrFixer\OnePunchMrFixerCharacterCardController.cs" />
     <Compile Include="TheScholar\TheScholarOfTheElementsCharacterCardController.cs" />
+    <Compile Include="ChronoRanger\TimeLoopChronoRangerCharacterCardController.cs" />
     <Compile Include="JustAField\*.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -21,7 +21,7 @@ This project is a series of meme variants and meme decks. Nothing is balanced, b
    Deal all the kinds of damage
 **** The Un-naturalist (Not yet implemented)
    Become an unnatural amalgamation of animals
-**** Time Loop Chronomancer (Not yet implemented)
+**** Time Loop Chrono Ranger
    Every turn is groundhog day
 **** Tree hugger akash (Not yet implemented)
    Show just how much you love the environment

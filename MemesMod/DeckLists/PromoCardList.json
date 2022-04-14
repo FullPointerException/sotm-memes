@@ -415,7 +415,7 @@
       }
     }
   ],
-  "TheScholar" : [
+  "TheScholar": [
     {
       "identifier": "TheScholarCharacter",
       "promoIdentifier": "TheScholarOfTheElementsCharacter",
@@ -453,5 +453,46 @@
         "default": "Earth! Fire! Wind! Water!"
       }
     }
-  ]
+  ],
+  "ChronoRanger": [
+    {
+      "identifier": "ChronoRangerCharacter",
+      "promoIdentifier": "TimeLoopChronoRangerCharacter",
+      "count": 1,
+      "title": "Chrono Ranger",
+      "promoTitle": "Time Loop Chrono Ranger",
+      "body": "Time Loop",
+      "icons": [
+        "HasPower",
+        "PlayCardNow",
+        "UsePowerNow",
+        "DrawCardNow"
+      ],
+      "backgroundColor": "FF0000",
+      "foilBackgroundColor": "00FF00",
+      "hitpointsColor": "0000FF",
+      "character": true,
+      "powers": [
+        "Play a card. Use a power. Draw a card."
+      ],
+      "hitpoints": 24,
+      "nemesisIdentifiers": [
+        "ChronoRanger"
+      ],
+      "incapacitatedAbilities": [
+            "One player may play a card.",
+            "One hero may use a power.",
+            "One player may draw a card."
+      ],
+      "flippedIcons": [
+        "PlayCardNow",
+        "UsePowerNow",
+        "DrawCardNow"
+      ],
+      "complexity": 1,
+      "openingLises": {
+        "default": "Just a touch of deja vu"
+      }
+    }
+  ],
 }
