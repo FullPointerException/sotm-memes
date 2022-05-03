@@ -78,6 +78,7 @@
     <Compile Include="TheScholar\TheScholarOfTheElementsCharacterCardController.cs" />
     <Compile Include="ChronoRanger\TimeLoopChronoRangerCharacterCardController.cs" />
     <Compile Include="JustAField\*.cs" />
+    <Compile Include="CheatyMcCheats\*.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="DeckLists\MigrantCoderDeckList.json" />

@@ -1,0 +1,635 @@
+{
+	"name": "Cheaty McCheats",
+	"kind": "Hero",
+	"initialCardIdentifiers": [
+		"CheatyMcCheatsCharacter"
+	],
+	"cards": [
+		{
+			"identifier": "CheatyMcCheatsCharacter",
+			"count": 1,
+			"title": "Cheaty McCheats",
+			"body": "Cheat",
+			"backgroundColor": "696969",
+			"foilBackgroundColor": "420420",
+			"hitpointsColor": "000000",
+			"character": true,
+			"powers": [
+				"Play the top card of your deck. {CheatyMcCheats} gains 2 HP."
+			],
+			"icons": [
+				"HasPower",
+				"PlayCardNow",
+				"GainHP"
+			],
+			"hitpoints": 10,
+			"nemesisIdentifiers": [
+				"OblivAeon",
+			],
+			"incapacitatedAbilities": [
+				"Each player may play a card.",
+				"Each player may use a power.",
+				"Revive one incapacitated hero with 1 HP."
+			],
+			"flippedIcons": [
+				"PlayCardNow",
+				"UsePowerNow",
+				"Revive"
+			],
+			"openingLines": {
+				"Good luck, chump"
+			},
+			"complexity": 1
+		},
+		{
+			"identifier": "RapidDeploymentDevice",
+			"count": 1,
+			"title": "Rapid Deployment Device",
+			"keywords": [
+				"equipment",
+				"device"
+			],
+			"icons": [
+				"PlayCardExtra",
+				"HasPower"
+			],
+			"body": "You may play an additional card each turn.",
+			"powers": [
+				"Play a card."
+			]
+		},
+		{
+			"identifier": "RapidDeploymentAura",
+			"count": 1,
+			"title": "Rapid Deployment Aura",
+			"keywords": [
+				"ongoing",
+				"aura"
+			],
+			"icons": [
+				"PlayCardExtra",
+				"HasPower"
+			],
+			"body": "You may play an additional card each turn.",
+			"powers": [
+				"Play a card."
+			]
+		},
+		{
+			"identifier": "RapidDeploymentMook",
+			"count": 1,
+			"title": "Rapid Deployment Mook",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"PlayCardExtra",
+				"HasPower"
+			],
+			"body": "You may play an additional card each turn.",
+			"powers": [
+				"Play a card."
+			],
+			"hitpoints": 3
+		},
+		{
+			"identifier": "MultitaskingDevice",
+			"count": 1,
+			"title": "Multitasking Device",
+			"keywords": [
+				"equipment",
+				"device"
+			],
+			"icons": [
+				"UsePowerExtra"
+			],
+			"body": "You may use an additional power each turn."
+		},
+		{
+			"identifier": "MultitaskingAura",
+			"count": 1,
+			"title": "Multitasking Aura",
+			"keywords": [
+				"ongoing",
+				"aura"
+			],
+			"icons": [
+				"UsePowerExtra"
+			],
+			"body": "You may use an additional power each turn."
+		},
+		{
+			"identifier": "MultitaskingMook",
+			"count": 1,
+			"title": "Multitasking Mook",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"UsePowerExtra"
+			],
+			"body": "You may use an additional power each turn.",
+			"hitpoints": 3
+		},
+		{
+			"identifier": "ReloadingDevice",
+			"count": 1,
+			"title": "Reloading Device",
+			"keywords": [
+				"equipment",
+				"device"
+			],
+			"icons": [
+				"DrawCardExtra",
+				"HasPower"
+			],
+			"body": "You may draw an additional card each turn.",
+			"powers": [
+				"Draw a card."
+			]
+		},
+		{
+			"identifier": "ReloadingAura",
+			"count": 1,
+			"title": "Reloading Aura",
+			"keywords": [
+				"ongoing",
+				"aura"
+			],
+			"icons": [
+				"DrawCardExtra",
+				"HasPower"
+			],
+			"body": "You may draw an additional card each turn.",
+			"powers": [
+				"Draw a card."
+			]
+		},
+		{
+			"identifier": "ReloadingMook",
+			"count": 1,
+			"title": "Reloading Mook",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"DrawCardExtra",
+				"HasPower"
+			],
+			"body": "You may draw an additional card each turn.",
+			"powers": [
+				"Draw a card."
+			],
+			"hitpoints": 3
+		},
+		{
+			"identifier": "HealingDevice",
+			"count": 1,
+			"title": "Healing Device",
+			"keywords": [
+				"equipment",
+				"device"
+			],
+			"icons": [
+				"GainHP",
+				"HasPower"
+			],
+			"body": "At the end of your turn, each hero target gains 1 HP.",
+			"powers": [
+				"Each hero target gains 1 HP.",
+			]
+		},
+		{
+			"identifier": "HealingAura",
+			"count": 1,
+			"title": "Healing Aura",
+			"keywords": [
+				"ongoing",
+				"aura"
+			],
+			"icons": [
+				"GainHP",
+				"HasPower"
+			],
+			"body": "At the end of your turn, each hero target gains 1 HP.",
+			"powers": [
+				"Each hero target gains 1 HP.",
+			]
+		},
+		{
+			"identifier": "HealingMook",
+			"count": 1,
+			"title": "Healing Mook",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"GainHP",
+				"HasPower"
+			],
+			"body": "At the end of your turn, each hero target gains 1 HP.",
+			"powers": [
+				"Each hero target gains 1 HP.",
+			],
+			"hitpoints": 3
+		},
+		{
+			"identifier": "ShieldDevice",
+			"count": 1,
+			"title": "Shield Device",
+			"keywords": [
+				"equipment",
+				"device"
+			],
+			"icons": [
+				"ReduceDamage",
+			],
+			"body": "Reduce damage dealt to targets you control by 1."
+		},
+		{
+			"identifier": "ShieldAura",
+			"count": 1,
+			"title": "Shield Aura",
+			"keywords": [
+				"outgoing",
+				"aura"
+			],
+			"icons": [
+				"ReduceDamage",
+			],
+			"body": "Reduce damage dealt to targets you control by 1."
+		},
+		{
+			"identifier": "ShieldMook",
+			"count": 1,
+			"title": "Shield Mook",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"ReduceDamage",
+			],
+			"body": "Reduce damage dealt to targets you control by 1.",
+			"hitpoints": 3
+		},
+		{
+			"identifier": "SwordDevice",
+			"count": 1,
+			"title": "Sword Device",
+			"keywords": [
+				"equipment",
+				"device"
+			],
+			"icons": [
+				"IncreaseDamage",
+			],
+			"body": "Increase damage dealt by targets you control by 1."
+		},
+		{
+			"identifier": "SwordAura",
+			"count": 1,
+			"title": "Sword Aura",
+			"keywords": [
+				"outgoing",
+				"aura"
+			],
+			"icons": [
+				"IncreaseDamage",
+			],
+			"body": "Increase damage dealt by targets you control by 1."
+		},
+		{
+			"identifier": "SwordMook",
+			"count": 1,
+			"title": "Sword Mook",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"IncreaseDamage",
+			],
+			"body": "Increase damage dealt by targets you control by 1.",
+			"hitpoints": 3
+		},
+		{
+			"identifier": "DeviceMook",
+			"count": 1,
+			"title": "Device Mook",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"CannotBeDestroyed",
+			],
+			"body": "Hero equipments in play are indestructible",
+			"hitpoints": 1
+		},
+		{
+			"identifier": "AuraMook",
+			"count": 1,
+			"title": "Aura Mook",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"CannotBeDestroyed",
+			],
+			"body": "Hero ongoings in play are indestructible",
+			"hitpoints": 1
+		},
+		{
+			"identifier": "SoulMook",
+			"count": 1,
+			"title": "Soul Mook",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"Manipulate",
+				"NoMaxHP"
+			],
+			"body": "Hero targets in play can gain HP above their maximum",
+			"hitpoints": 1
+		},
+		{
+			"identifier": "LoudDevice",
+			"count": 1,
+			"title": "Loud Device",
+			"keywords": [
+				"equipment",
+				"device"
+			],
+			"icons": [
+				"DamageEnergy",
+				"HasPower"
+			],
+			"body": "At the end of your turn, {CheatyMcCheats} deals each villain target 1 Sonic damage.",
+			"powers": [
+				"Deal each villain target 1 Sonic damage."
+			]
+		},
+		{
+			"identifier": "LoudAura",
+			"count": 1,
+			"title": "Loud Aura",
+			"keywords": [
+				"ongoing",
+				"aura"
+			],
+			"icons": [
+				"DamageSonic",
+				"HasPower"
+			],
+			"body": "At the end of your turn, {CheatyMcCheats} deals each villain target 1 Sonic damage.",
+			"powers": [
+				"Deal each villain target 1 Sonic damage."
+			]
+		},
+		{
+			"identifier": "PollutionMook",
+			"count": 1,
+			"title": "Pollution Mook",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"DamageToxic",
+				"HasPower",
+				"DestroyEnvironment"
+			],
+			"body": "At the end of your turn, {PollutionMook} deals each environment target 1 Toxic damage.",
+			"powers": [
+				"Destroy 1 environment target."
+			],
+			"hitpoints": 3
+		},
+		{
+			"identifier": "MookWithABat",
+			"count": 1,
+			"title": "Mook With A Bat",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"DamageMelee"
+			],
+			"body": "At the end of your turn, {MookWithABat} deals the nonhero target with the lowest HP 1 melee damage.",
+			"hitpoints": 5
+		},
+		{
+			"identifier": "MookWithAGun",
+			"count": 1,
+			"title": "Mook With A Gun",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"DamageProjectile"
+			],
+			"body": "At the end of your turn, {MookWithAGun} deals the nonhero target with the lowest HP 1 projectile damage.",
+			"hitpoints": 5
+		},
+		{
+			"identifier": "MookWithALaser",
+			"count": 1,
+			"title": "Mook With A Laser",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"DamageMelee"
+			],
+			"body": "At the end of your turn, {MookWithALaser} deals the nonhero target with the lowest HP 1 energy damage.",
+			"hitpoints": 5
+		},
+		{
+			"identifier": "MookWithAFlamethrower",
+			"count": 1,
+			"title": "Mook With A Flamethrower",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"DamageFire"
+			],
+			"body": "At the end of your turn, {MookWithAFlamethrower} deals the nonhero target with the lowest HP 1 fire damage.",
+			"hitpoints": 5
+		},
+		{
+			"identifier": "MookWithAFreezeRay",
+			"count": 1,
+			"title": "Mook With A FreezeRay",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"DamageCold"
+			],
+			"body": "At the end of your turn, {MookWithAFreezeRay} deals the nonhero target with the lowest HP 1 cold damage.",
+			"hitpoints": 5
+		},
+		{
+			"identifier": "MookWithATaser",
+			"count": 1,
+			"title": "Mook With A Taser",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"DamageLightning"
+			],
+			"body": "At the end of your turn, {MookWithATaser} deals the nonhero target with the lowest HP 1 lightning damage.",
+			"hitpoints": 5
+		},
+		{
+			"identifier": "MookWithAPoison",
+			"count": 1,
+			"title": "Mook With A Poision",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"DamageToxic"
+			],
+			"body": "At the end of your turn, {MookWithAPoison} deals the nonhero target with the lowest HP 1 toxic damage.",
+			"hitpoints": 5
+		},
+		{
+			"identifier": "MookWithAHeadache",
+			"count": 1,
+			"title": "Mook With A Headache",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"DamagePsychic"
+			],
+			"body": "At the end of your turn, {MookWithAHeadache} deals the nonhero target with the lowest HP 1 psychic damage.",
+			"hitpoints": 5
+		},
+		{
+			"identifier": "MookWithAMic",
+			"count": 1,
+			"title": "Mook With A Mic",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"DamageSonic"
+			],
+			"body": "At the end of your turn, {MookWithAMic} deals the nonhero target with the lowest HP 1 sonic damage.",
+			"hitpoints": 5
+		},
+		{
+			"identifier": "MookWithASmite",
+			"count": 1,
+			"title": "Mook With A Smite",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"DamageRadiant"
+			],
+			"body": "At the end of your turn, {MookWithASmite} deals the nonhero target with the lowest HP 1 radiant damage.",
+			"hitpoints": 5
+		},
+		{
+			"identifier": "MookWithACurse",
+			"count": 1,
+			"title": "Mook With A Curse",
+			"keywords": [
+				"minion",
+				"cultist"
+			],
+			"icons": [
+				"DamageInfernal"
+			],
+			"body": "At the end of your turn, {MookWithACurse} deals the nonhero target with the lowest HP 1 infernal damage.",
+			"hitpoints": 5
+		},
+		{
+			"identifier": "TakeAnotherTurn",
+			"count": 2,
+			"title": "Take Another Turn",
+			"keywords": [
+				"one-shot"
+			],
+			"icons": [
+				"PlayCardNow",
+				"UsePowerNow",
+				"DrawCardNow"
+			],
+			"body": "You may play a card. You may use a power. You may draw a card.",
+		},
+		{
+			"identifier": "MookCannon",
+			"count": 1,
+			"title": "Mook Cannon",
+			"keywords": [
+				"equipment",
+				"device"
+			],
+			"icons": [
+				"HasPower",
+				"DealDamageEnergy"
+			],
+			"powers": [
+				"{CheatyMcCheats} deals 1 target X energy damage, where X is the number of hero non-character targets in play. Each hero non-character target takes X energy damage."
+			]
+		},
+		{
+			"identifier": "DeviceCannon",
+			"count": 1,
+			"title": "Device Cannon",
+			"keywords": [
+				"equipment",
+				"device"
+			],
+			"icons": [
+				"HasPower",
+				"DealDamageEnergy",
+				"DestroyEquipment"
+			],
+			"powers": [
+				"{CheatyMcCheats} deals 1 target X energy damage, where X is the number of hero equipment cards play. Destroy all hero equipment cards."
+			]
+		},
+		{
+			"identifier": "BurstAura",
+			"count": 1,
+			"title": "Burst Aura",
+			"keywords": [
+				"ongoing",
+				"aura"
+			],
+			"icons": [
+				"HasPower",
+				"DealDamageEnergy",
+				"DestroyOngoing"
+			],
+			"powers": [
+				"{CheatyMcCheats} deals 1 target X energy damage, where X is the number of hero ongoing cards play. Destroy all hero ongoing cards."
+			]
+		},
+	]
+}
