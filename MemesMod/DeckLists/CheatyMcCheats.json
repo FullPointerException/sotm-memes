@@ -248,7 +248,7 @@
 			"icons": [
 				"ReduceDamage",
 			],
-			"body": "Reduce damage dealt to targets you control by 1."
+			"body": "Reduce damage dealt to hero targets by 1."
 		},
 		{
 			"identifier": "ShieldAura",
@@ -261,7 +261,7 @@
 			"icons": [
 				"ReduceDamage",
 			],
-			"body": "Reduce damage dealt to targets you control by 1."
+			"body": "Reduce damage dealt to hero targets by 1."
 		},
 		{
 			"identifier": "ShieldMook",
@@ -274,7 +274,7 @@
 			"icons": [
 				"ReduceDamage",
 			],
-			"body": "Reduce damage dealt to targets you control by 1.",
+			"body": "Reduce damage dealt to hero targets by 1.",
 			"hitpoints": 3
 		},
 		{
@@ -374,7 +374,7 @@
 			],
 			"body": "At the end of your turn, {CheatyMcCheats} deals each villain target 1 Sonic damage.",
 			"powers": [
-				"Deal each villain target 1 Sonic damage."
+				"{CheatyMcCheats} deals each villain target 1 Sonic damage."
 			]
 		},
 		{
@@ -391,7 +391,7 @@
 			],
 			"body": "At the end of your turn, {CheatyMcCheats} deals each villain target 1 Sonic damage.",
 			"powers": [
-				"Deal each villain target 1 Sonic damage."
+				"{CheatyMcCheats} deals each villain target 1 Sonic damage."
 			]
 		},
 		{
@@ -594,7 +594,7 @@
 				"DealDamageEnergy"
 			],
 			"powers": [
-				"{CheatyMcCheats} deals 1 target X energy damage, where X is the number of hero non-character targets in play. Each hero non-character target takes X energy damage."
+				"{CheatyMcCheats} deals 1 target X energy damage, where X is the number of hero non-character targets in play. {MookCannon} deals each hero non-character target X energy damage."
 			]
 		},
 		{

@@ -11,6 +11,8 @@ This project is a series of meme variants and meme decks. Nothing is balanced, b
    A legacy that is too weak to help, and get destroyed real fast
 **** America's Youngest Legacy (Not yet implemented)
    A literal baby that cries and gives everyone a headache
+**** Absolute One (Not yet implemented)
+Like absolute zero, but one better
 **** One Punch Mr. Fixer
    All he needs is one good punch to destroy something
 **** Quick Draw Expatriette

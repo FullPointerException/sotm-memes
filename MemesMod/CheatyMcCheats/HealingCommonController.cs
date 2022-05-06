@@ -4,9 +4,9 @@ using Handelabra.Sentinels.Engine.Model;
 
 namespace Memes.CheatyMcCheats
 {
-    public class HealingCardController : CardController
+    public class HealingCommonController : CardController
     {
-        public HealingCardController(Card card, TurnTakerController turnTakerController)
+        public HealingCommonController(Card card, TurnTakerController turnTakerController)
             : base(card, turnTakerController)
         {
         }
@@ -14,7 +14,7 @@ namespace Memes.CheatyMcCheats
         public override void AddTriggers()
         {
             // At the end of your turn, each hero target gains 1 HP
-            base.AddEndOfTurnTrigger((TurnTaker turnTaker) => turnTaker == this.TurnTaker, AllHeroTargetsGainHP, TriggerType.GainHP);
+            base.AddEndOfTurnTrigger((TurnTaker turnTaker) => turnTaker == this.TurnTaker, this.AllHeroTargetsGainHP, TriggerType.GainHP);
         }
 
         public override IEnumerator UsePower(int index = 0)
