@@ -4,6 +4,8 @@ This project is a series of meme variants and meme decks. Nothing is balanced, b
 *** Heroes
 **** Guy with a gun (Not yet implemented)
    He's just a guy. He's got a gun. Could I be any more obvious?
+**** Cheaty Mc Cheats
+   A cheaty hero whose cards break the rules
 *** Hero Variants
 **** Burninator Ra (Not yet implemented)
    Burninate all the villains
